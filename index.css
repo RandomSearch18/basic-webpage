@@ -15,3 +15,14 @@ a svg {
 body {
   font-family: sans-serif;
 }
+
+/* Styles for the Creative Commons license notice  */
+#license-notice img {
+  height: 22px;
+  margin-left: 3px;
+  vertical-align: text-bottom;
+}
+
+#license-notice a {
+  display: inline-block;
+}
