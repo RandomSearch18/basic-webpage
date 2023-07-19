@@ -1,0 +1,4 @@
+/* Ensure images fill up screen width without overflowing */
+img {
+  width: 100%;
+}
