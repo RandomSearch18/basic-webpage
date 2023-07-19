@@ -1,5 +1,6 @@
-/* Ensure images fill up screen width without overflowing */
-img {
+/* Ensure images and videos fill up screen width without overflowing */
+img,
+video {
   width: 100%;
 }
 
