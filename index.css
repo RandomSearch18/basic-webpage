@@ -8,3 +8,8 @@ video {
 a svg {
   color: initial;
 }
+
+/* Use a sans-serif font, as they're easier to read */
+body {
+  font-family: sans-serif;
+}
