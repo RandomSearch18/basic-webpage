@@ -1,9 +1,9 @@
-/* Ensure images and videos fill up screen width without overflowing */
+/* Make graphics quite large, but without taking over the screen */
 img,
 video,
 svg {
   width: 100%;
-  max-width: 60vh;
+  max-width: 55vh;
 }
 
 /* Prevent SVGs inside links inheriting the link text colour */
