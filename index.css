@@ -2,3 +2,8 @@
 img {
   width: 100%;
 }
+
+/* Prevent SVGs inside links inheriting the link text colour */
+a svg {
+  color: initial;
+}
