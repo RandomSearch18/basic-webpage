@@ -8,12 +8,12 @@
     <title>USB-C is great</title>
   </head>
   <body>
-    <main>
+    <article>
       <h1>The USB Type-C connector is great</h1>
-      Introduced in 2014, USB-C is a highly-versatile, easy-to-use connector
-      that can be found on everything from desktops and laptops to mobiles and
-      external SSDs. This simple webpage will outline some of its key
-      advantages.
+      Introduced in 2014, USB-C (officially called USB Type-C) is a
+      highly-versatile, easy-to-use connector that can be found on everything
+      from desktops and laptops to mobiles and external SSDs. This simple
+      webpage will outline some of its key advantages.
 
       <figure>
         <img src="assets/usb-c-in-the-wild.jpg" />
@@ -105,7 +105,49 @@
           >
         </li>
       </ul>
-    </main>
+    </article>
+
+    <h2>Tell us your thoughts</h2>
+
+    <p>
+      We'd love to hear your feedback! All correspondence will be forwarded to
+      our agents at <code>/dev/null</code>.
+    </p>
+    <p>Please do not submit any personal information through this form.</p>
+
+    <p id="form-success" hidden>
+      Thanks for your feedback, which is very valuable to us. We'll respond
+      within 48 working
+      <del>hours</del> <ins>years</ins>.
+    </p>
+
+    <form
+      onsubmit="document.querySelector('#form-success').removeAttribute('hidden'); return false"
+    >
+      <label>
+        Your name
+        <input type="text" autocomplete="name" />
+      </label>
+      <br />
+      <label>
+        Your exact coordinates
+        <input type="text" />
+      </label>
+      <br />
+      <label>
+        Your age
+        <input type="number" size="5" />
+      </label>
+      <br />
+      <label>
+        The best USB connector
+        <select>
+          <option>USB Type-C</option>
+        </select>
+      </label>
+      <br />
+      <button>Submit</button>
+    </form>
 
     <hr />
 

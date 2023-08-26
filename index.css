@@ -1,7 +1,7 @@
 /* Make graphics quite large, but without taking over the screen */
-main img,
-main video,
-main svg {
+article img,
+article video,
+article svg {
   width: 100%;
   max-width: 55vh;
 }
