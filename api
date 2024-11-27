@@ -1,7 +1,7 @@
 {
     "$schema": "https://star.slevel.xyz/schema.json",
-    "city": "Guildford",
-    "state": "Surrey",
+    "city": "London",
+    "state": "London",
     "country": "GB",
     "slack_id": "U073M5L9U13",
     "extra": "This is a website that was _not_ made or hosted in the USA! How quaint and peculiar!"
