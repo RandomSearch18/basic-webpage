@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "city": {
+        "type": "string"
+      },
+      "state": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "slack_id": {
+        "type": "string"
+      },
+      "extra": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "city",
+      "state",
+      "country",
+      "slack_id",
+      "extra"
+    ]
+  }
